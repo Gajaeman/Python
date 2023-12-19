@@ -14,6 +14,7 @@ def init(mylist):
 
 for row in range(10):
     table+=[[0]*10]
+print(table)
 
-init(table)
-printList(table)
+#init(table)
+#printList(table)

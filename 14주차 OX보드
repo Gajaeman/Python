@@ -1,0 +1,13 @@
+N = int(input())
+# Mat = [['O' for i in range(N)]for i in range(N)]
+
+Mat = []
+for i in range(N):
+    Mat.append(['O'] * N)
+
+for y in range(N):
+    Mat[y][y] = 'X'
+    Mat[y][-y-1] = 'X'
+        
+for i in Mat:
+    print(*i)

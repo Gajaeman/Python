@@ -1,0 +1,11 @@
+a = int(input('양의 정수를 입력하세요 : '))
+M = []
+
+for y in range(1, a+1) :
+    Y = [' ']
+    for x in range(y, y+a) :
+        Y.append(x%10)
+    M.append(Y)
+
+for i in M:
+    print(*i)

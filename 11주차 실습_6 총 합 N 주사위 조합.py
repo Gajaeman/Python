@@ -4,3 +4,4 @@ for a in range(1,7):
         for c in range(1,7):
             if a+b+c==N:
                 print("%d %d %d"%(a,b,c))
+                #print(a, b, c)

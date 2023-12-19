@@ -1,8 +1,3 @@
-s=[7,8,8,7,5,6,8,9,8]
-n=s.count(8)                   #'8' 개수세기
-L=[]; p=0                      # p에 8의 인덱스번호 할당
-for _ in range(n):             # _를 사용 -> n의 값을 사용 x
-    p=s.index(8,p)             # p위치부터 시작해서 8의 인덱스 번호를 p로 반환
-    L.append(p)                
-    p+=1                       # 중복되지 않도록 시작 범위 조정
-print(L)
+d = {0: 'zero', 1: 'one', 2: 'two'}
+del d[1]
+print(d)
